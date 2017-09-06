@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+html {
+    body {
+      font-family: 'Inconsolata', monospace;
+        font-size: 100%;
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          background-color: #464646;
+        .panel-heading{
+          max-width: 400px;
+          width: 100%;
+          margin: 0 auto;
+          padding: 10px;
+          text-align: center;
+          color: black;
+          border-radius: 15px;
+          h1{
+            font-size: 2em;
+          }
+          a{
+            color:white;
+            text-decoration: none;
+          }
+        }
+
+    }
+}
+
+
+@media all and (max-width: 400px){
+  html body .panel-heading{
+      max-width: 100%;
+    }
+  }
